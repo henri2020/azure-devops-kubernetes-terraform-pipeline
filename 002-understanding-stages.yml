@@ -28,7 +28,7 @@ stages:
 - stage: ProDeploy
   dependsOn:
   - DevDeploy
-  - ProDeploy
+  - QADeploy
   jobs:
   - job: ProDeployJob
     steps:
