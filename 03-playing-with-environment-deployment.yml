@@ -8,7 +8,7 @@
 #     Mac:
 #       operatingsystem: 'macos-latest'  
 pool:
-  vmImage: $(operatingsystem)
+  vmImage: 'ubuntu-latest'
 
 
 
